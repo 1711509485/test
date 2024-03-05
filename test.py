@@ -1,6 +1,6 @@
 import os
 
-<<<<<<< HEAD:test.py
+# <<<<<<< HEAD:test.py
 from datetime import datetime
 
 import streamlit as st
@@ -11,7 +11,7 @@ from datetime import datetime
 
 import streamlit as st
 # from mpl_toolkits.axisartist.parasite_axes import HostAxes, ParasiteAxes
->>>>>>> 3491935508656140ce31c85d2d5b53e6e8e2117c:2_dipin_3.py
+# >>>>>>> 3491935508656140ce31c85d2d5b53e6e8e2117c:2_dipin_3.py
 import numpy as np
 import pandas as pd
 import warnings
