@@ -20,7 +20,7 @@ import pickle
 import tempfile
 from io import BytesIO
 
-from matplotlib import pyplot as plt
+import matplotlib.pyplot as plt
 warnings.filterwarnings("ignore")
 plt.rcParams['font.sans-serif'] = ['SimHei']
 plt.rcParams["axes.unicode_minus"]=False
