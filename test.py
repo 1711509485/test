@@ -1,17 +1,9 @@
 import os
 
-# <<<<<<< HEAD:test.py
 from datetime import datetime
 
 import streamlit as st
 
-# =======
-
-from datetime import datetime
-
-import streamlit as st
-# from mpl_toolkits.axisartist.parasite_axes import HostAxes, ParasiteAxes
-# >>>>>>> 3491935508656140ce31c85d2d5b53e6e8e2117c:2_dipin_3.py
 import numpy as np
 import pandas as pd
 import warnings
@@ -19,11 +11,11 @@ import ast
 import pickle
 import tempfile
 from io import BytesIO
-
-import matplotlib.pyplot as plt
-warnings.filterwarnings("ignore")
-plt.rcParams['font.sans-serif'] = ['SimHei']
-plt.rcParams["axes.unicode_minus"]=False
+import time
+# from matplotlib import pyplot as plt
+# warnings.filterwarnings("ignore")
+# plt.rcParams['font.sans-serif'] = ['SimHei']
+# plt.rcParams["axes.unicode_minus"]=False
 
 def read_file(uploaded_file):
     # 获取上传文件的名称和扩展名
