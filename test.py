@@ -154,7 +154,7 @@ uploaded_file_sta = st.file_uploader("上传低频数据", type=['pkl','csv','xl
 if uploaded_file_sta is not None:
 
     # 1、读取低频数据======================
-    file = 'F:\数据处理\文件处理'
+    file = '必要文件'
     # df_sta = pd.read_pickle(os.path.join(file,'ZI 低频-脱敏发出20230823.pkl'))
     df_sta = read_file(uploaded_file_sta)
     # 读取双渣操作的炉次
